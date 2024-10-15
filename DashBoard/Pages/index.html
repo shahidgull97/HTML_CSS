@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53b6a9454f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <main>
+        <!-- left section of profile and other elements -->
+        <section class="left">
+            <div id="left">
+                <div id="profile">
+                    <img src="/multimedia/man.jpg"/>
+                    <p>JOHN DOE</p>
+                </div>
+                <nav class="nav">
+                    <div><i class="fa-solid fa-list-ul"></i><a href="#board">DASHBOARD</a></div>
+                    <div><i class="fa-solid fa-tags"></i><a href="#data">DATA</a></div>
+                    <div><i class="fa-solid fa-user"></i><a href="#user">USERS</a></div>
+                    <div><i class="fa-regular fa-calendar-days"></i><a href="#schedule">SCHEDULE</a></div>
+                    <div><i class="fa-solid fa-gear"></i><a href="#contact">CONTACT</a></div>
+                    
+                </nav>
+            </div>
+        </section>
+        <!-- Right section  the dashboard part-->
+        <section class="right">
+            <header>
+                <h1>DashBoard</h1>
+                <input
+                id="search"
+                placeholder="search..."
+                />
+            </header>
+            <article id="board">
+                <div>
+                    <h2>Activities</h2>
+                    <p>MAY-JUN 2024</p>
+                </div>
+                <div><img src="/multimedia/BarGraph.png"/></div>
+            </article>
+            <!-- Dashboard data  -->
+            <article id="data">
+                <h2>Dashboard Data</h2>
+                <div class="card-con">
+                    <div class="card1 card">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="cardHead">Total Revenue</p>
+                        <p class="cardData">$456553.563</p>
+                    </div>
+                    <div class="card2 card"><i class="fa-solid fa-tag"></i><p class="cardHead">Total Transaction</p><p class="cardData">1,450</p></div>
+                    <div class="card3 card"><i class="fa-solid fa-thumbs-up"></i><p class="cardHead">Total Likes</p><p class="cardData">1,234</p></div>
+                    <div class="card4 card"><i class="fa-solid fa-user"></i><p class="cardHead">Total User</p><p class="cardData">856</p></div>
+                </div>
+            </article>
+            <!-- User interactions part -->
+            <article id="user">
+                <h2>User Interactions</h2>
+                <div id="table">
+                    <table>
+                        <tr>
+                            <th>MONTH</th>
+                            <th>NUMBER OF USERS</th>
+                        </tr>
+                        <tr>
+                            <td>January</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr><td>February</td>
+                            <td>1200</td></tr>
+                        <tr><td>March</td>
+                            <td>1500</td></tr>
+                        <tr><td>April</td>
+                            <td>1250</td></tr>
+                        <tr><td>May</td>
+                            <td>1600</td></tr>
+                    </table>
+                </div>
+            </article>
+            <!-- Schedule part -->
+            <article id="schedule">
+                <div id="art1">
+                    <h2>Today's Schedule</h2>
+                    <p>See All</p>
+                </div>
+                <div class="artl">
+                    <h3 class="meets head3">Meetings from suppliers from Kutta bali</h3>
+                    <p class="meets detail">14:00-15:00</p>
+                    <p class="meets detail">at sunset road kutta bali</p>
+                </div>
+                <div class="artl">
+                    <h3 class="meets head3">Meetings from suppliers from Suresh</h3>
+                    <p class="meets detail">15:00-16:00</p>
+                    <p class="meets detail">at sunset road bali</p>
+                </div>
+                <div class="artl">
+                    <h3 class="meets head3">Meetings from suppliers from Ajay</h3>
+                    <p class="meets detail">12:00-1:00</p>
+                    <p class="meets detail">at sunset road </p>
+                </div>
+                <div class="artl">
+                    <h3 class="meets head3">Meetings from suppliers from Encoprice</h3>
+                    <p class="meets detail">2:00-3:00</p>
+                    <p class="meets detail">at morning on sohna road</p>
+                </div>
+                <div class="artl">
+                    <h3 class="meets head3">Meetings from suppliers from Encoprice</h3>
+                    <p class="meets detail">2:00-3:00</p>
+                    <p class="meets detail">at morning on sohna road</p>
+                </div>   
+            </article>
+            <!-- Contact Information -->
+            <article id="contact">
+                <h2>Contact Details</h2>
+                <div id="contact-div">
+                    <div id="frame"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448657.9848447847!2d76.95698619863279!3d28.53549615648218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1726423767546!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div id="form">
+                        <h3>Feedback Form</h3>
+                        <form action="#" method="post">
+                            
+                            <input type="text" class="user" placeholder="Your name"
+                            />
+                            <input type="email" class="user" placeholder="Your email"
+                            />
+                            
+                            <textarea  id="phd" placeholder="YOUr Feedback" >
+                            </textarea>
+                            <button type="submit" id="button">Submit Feedback</button>
+                        </form>
+                    </div>
+                </div>
+            </article>
+            <!-- footer -->
+            <footer id="foot">
+                <div>
+                    <a href="https://www.facebook.com/codingninjas"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                    <a href="https://x.com/CodingNinjasOff"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                    <a href="https://www.instagram.com/coding.ninjas/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>
+                </div>
+                <p>&copy; 2024 Your Company Name All Rights Reserved</p>
+            </footer>
+        </section>
+    </main>
+    
+</body>
+</html>
